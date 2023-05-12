@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 })
 
 
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: "*" })); 
 app.use(express.json());
 app.use(cookieParser());
 app.use("/users", users);
